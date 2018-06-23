@@ -3,6 +3,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    color: #fff;
 }
 
 #page {
@@ -53,4 +54,39 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+#titles {
+    align-self: center;
+    text-align: center;
+}
+
+#fleche {
+    align-self: center;
+    margin-top: 66vh;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+
+#trait1,
+#trait2 {
+    height: 50px;
+    width: 6px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+#trait1 {
+    transform: rotate(-55deg);
+    transform-origin: bottom;
+    position: relative;
+    left: 5px;
+}
+
+#trait2 {
+    transform: rotate(55deg);
+    transform-origin: bottom;
+    position: relative;
+    right: 5px;
 }
