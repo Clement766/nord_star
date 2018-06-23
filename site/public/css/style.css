@@ -1,40 +1,36 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0;
 }
 
+body {
+    background-image: url(../images/background.png);
+    background-size: 100% 400%;
+}
+
 #menu {
     height: 90%;
-    width: 10%;
-    border-radius: 12px;
-	background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
     align-self: center;
     margin-left: 15px;
 }
 
-#home {
-    background-image: url("../images/home.png");
-}
+#home {}
 
-#services {
-    background-image: url("../images/services.png");
-}
+#services {}
 
-#portfolio {
-    background-image: url("../images/portfolio.png");
-}
+#portfolio {}
 
-#contact {
-    background-image: url("../images/launch.png");
-}
+#contact {}
 
 #page > div {
     height: 100%;
     width: 100%;
     display: flex;
-    background-size: 100% 100%;
-    
 }
 
 #page {
