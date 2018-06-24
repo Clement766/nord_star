@@ -14,6 +14,7 @@ body {
     width: 100%;
     margin: 0;
     color: #fff;
+    min-height: 890px;
 }
 
 body {
@@ -67,16 +68,17 @@ body {
 }
 
 #titles {
-    margin-top: 10%;
+    margin-top: 90px;
     align-self: center;
     text-align: center;
 }
 
 #name {
     font-family: 'futurist';
-    letter-spacing: 12px;
+    font-weight: 100;
+    letter-spacing: -6px;
     font-size: 100px;
-    margin-bottom: 12%;
+    margin-bottom: 90px;
 }
 
 #slogan {
@@ -86,7 +88,7 @@ body {
 
 #fleche {
     align-self: center;
-    margin-top: 25vh;
+    margin-top: 200px;
     display: flex;
     width: 100px;
     justify-content: center;
