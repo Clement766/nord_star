@@ -34,21 +34,26 @@ body {
 }
 
 #hidden_menu {
-    display: none;
-    height: 90%;
+/*    display: none;*/
+    height: 900px;
     width: 300px;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     margin: auto 0;
-    margin-left: 15px;
+    position: absolute;
+    top: 50vh;
+    left: -350px;
+    transform: translate(-0%, -50%);
+    
 }
 
 #hamburger_menu {
     margin: 60px 0 0 50px;
+    width: 35px;
 }
 
 #hamburger_menu div {
-    /*    display: none;*/
+/*    display: none;*/
     background-color: #fff;
     height: 4px;
     border-radius: 50px;
@@ -83,7 +88,7 @@ body {
 
 #slogan {
     font-size: 70px;
-    font-family: 'mermaid'
+    font-family: 'mermaid';
 }
 
 #fleche {
@@ -114,4 +119,9 @@ body {
     transform-origin: bottom;
     position: relative;
     right: 5px;
+}
+
+#star {
+    width: 250px;
+    margin-top: 12px;
 }
