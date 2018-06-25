@@ -60,7 +60,7 @@
           font-weight: bold;
           font-family: 'futuristbold';
           position: fixed;
-          top: 8.9px;
+          top: 9px;
           left: 60px
       }
       
@@ -93,11 +93,14 @@
       p1, p2, p3 {
           display: block;
           font-size: 45px;
-          margin: 45px
+          margin: 45px;
+          margin-right: 180px;
+          font-family: 'sourcesemibold';
+          text-align: justify;
       }
       
       p1 {
-          margin-top: 150px
+          margin-top: 150px;
       }
       
       #phrase3 {

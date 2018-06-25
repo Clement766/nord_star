@@ -11,3 +11,8 @@
     font-family: 'mermaid';
     src: url('../fonts/mermaid.ttf');
 }
+
+@font-face {
+    font-family: 'sourcesemibold';
+    src: url('../fonts/sourcesemibold.ttf');
+}
