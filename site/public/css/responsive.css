@@ -12,10 +12,10 @@
       }
       
       body {
-    background-image: url(../images/aurore1.png);
-    background-size: 85% ;
+    background-image: url(../images/backgroundmobile.png);
+    background-size: 100% ;
     background-repeat: no-repeat;
-    background-position: 50% 40%; 
+    background-position: 0px 170px;
     
 }
       
