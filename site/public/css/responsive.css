@@ -97,7 +97,11 @@
       }
       
       p1 {
-          top: 
+          margin-top: 150px
+      }
+      
+      #phrase3 {
+          display: none;
       }
 
 }
