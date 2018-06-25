@@ -1,17 +1,3 @@
-@font-face {
-    font-family: 'futurist';
-    src: url('../fonts/FUTRFW.TTF');
-}
-@font-face {
-    font-family: 'futuristbold';
-    src: url('../fonts/futuristbold.ttf');
-}
-
-@font-face {
-    font-family: 'mermaid';
-    src: url('../fonts/mermaid.ttf');
-}
-
 html,
 body {
     height: 100%;
