@@ -10,6 +10,8 @@ body {
 body {
     background-image: url(../images/background.png);
     background-size: 100% 400%;
+    background-repeat: no-repeat;
+    
 }
 
 #page {
@@ -127,12 +129,15 @@ body {
 #launch a {
     margin: auto auto 450px auto;
     text-decoration: none;
-    font-family: mermaid;
+    font-family: 'mermaid';
     color: #fff;
-    font-size: 130px;
+    font-size: 80px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
-    padding: 25px ;
+    padding: 85px ;
+    padding-bottom: 40px;
+    padding-top: 40px
+
 }
 
 #portfolio {
@@ -141,6 +146,6 @@ body {
 
 #portfolio p {
     margin: auto;
-    font-family: mermaid;
+    font-family: 'mermaid';
     font-size: 100px;
 }

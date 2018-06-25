@@ -46,7 +46,7 @@
     width: 60px;
     position: fixed;
     top: 85px;
-    left: 850px
+    left: 850px;
     
 }
 
@@ -59,19 +59,19 @@
           font-size: 50px;
           font-weight: bold;
           font-family: 'futuristbold';
-          position: fixed;
-          top: 9px;
-          left: 60px
+          margin-top: -107px;
+          margin-left: -470px
       }
       
       #slogan {
           color: black;
           font-size: 100px;
-          margin-top: 1300px
+          margin-top: 1300px;
       }
       
       #fleche {
-          margin-top: -30px
+          margin-top: -30px;
+          display: none;
       }
       
       #trait1 {
@@ -92,7 +92,7 @@
       
       p1, p2, p3 {
           display: block;
-          font-size: 45px;
+          font-size: 40px;
           margin: 45px;
           margin-right: 180px;
           font-family: 'sourcesemibold';
@@ -106,7 +106,18 @@
       #phrase3 {
           display: none;
       }
+      
+      p2 {
+          margin-top: 110px;
+          
+      }
+      
+      p3 {
+          margin-top: 330px;
+      }
 
 }
+
+
 
 
