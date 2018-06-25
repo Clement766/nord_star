@@ -1,143 +1,131 @@
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-      
-      body {
-          background-image: none;
-          background-color: white;
-      }
-      
-      body {
-    background-image: url(../images/backgroundmobile.png);
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    background-position: 0px 170px;
-    
-}
-      
-      #hamburger_menu {
-    margin: 60px 0 0 50px;
-    width: 35px;
-          position: relative;
-          bottom: 5px;
-          
-}
 
-#hamburger_menu div {
-/*    display: none;*/
-    background-color: black;
-    height: 10px;
-    border-radius: 0px;
-    margin-bottom: 10px;
-    position: fixed;
-    left: 820px;
-    top: 55px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    body {
+        background-image: none;
+        background-color: white;
+    }
+
+    body {
+        background-image: url(../images/backgroundmobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px 170px;
+    }
+
+    #hamburger_menu {
+        margin: 60px 0 0 50px;
+        width: 35px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    #hamburger_menu div {
+        /*    display: none;*/
+        background-color: black;
+        height: 10px;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        position: fixed;
+        left: 820px;
+        top: 55px;
+    }
+
+    #hamburger_menu div:nth-child(1) {
+        width: 90px;
+    }
+
+    #hamburger_menu div:nth-child(2) {
+        width: 60px;
+        position: fixed;
+        top: 85px;
+        left: 850px;
+    }
+
+    #hamburger_menu div:nth-child(3) {
+        width: 0px;
+    }
+
+    #name {
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'futuristbold';
+        margin-top: -165px;
+        margin-left: -470px
+    }
+
+    #slogan {
+        color: black;
+        font-size: 100px;
+        margin-top: 1300px;
+    }
+
+    #fleche {
+        margin-top: -30px;
+        display: none;
+    }
+
+    #trait1 {
+        background-color: black;
+    }
+
+    #trait2 {
+        background-color: black;
+    }
+
+    #services,
+    #portfolio,
+    #launch {
+        color: black;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    #p1,
+    #p2,
+    #p3 {
+        display: block;
+        font-size: 40px;
+        margin: 45px;
+        margin-right: 180px;
+        font-family: 'sourcesemibold';
+        text-align: justify;
+    }
+
+    #services p {
+        width: auto;
+    }
+
+    #p1 {
+        margin-top: 150px;
+    }
+
+    #phrase3 {
+        display: none;
+    }
+
+    #p2 {
+        margin-top: 110px;
+    }
+
+    #p3 {
+        margin-top: 330px;
+    }
+
+    #launch a {
+        margin-bottom: 700px;
+        text-decoration: none;
+        font-family: 'mermaid';
+        color: #fff;
+        font-size: 100px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding: 45px 80px 45px 80px;
+    }
 }
-
-#hamburger_menu div:nth-child(1) {
-    width: 90px;
-}
-
-#hamburger_menu div:nth-child(2) {
-    width: 60px;
-    position: fixed;
-    top: 85px;
-    left: 850px;
-    
-}
-
-#hamburger_menu div:nth-child(3) {
-    width: 0px;
-}
-      
-      #name {
-          color: black;
-          font-size: 50px;
-          font-weight: bold;
-          font-family: 'futuristbold';
-          margin-top: -165px;
-          margin-left: -470px
-      }
-      
-      #slogan {
-          color: black;
-          font-size: 100px;
-          margin-top: 1300px;
-      }
-      
-      #fleche {
-          margin-top: -30px;
-          display: none;
-      }
-      
-      #trait1 {
-          background-color: black;
-      }
-      #trait2 {
-          background-color: black;
-      }
-     
-      #services, #portfolio, #launch {
-          color: black;
-          
-      }
-      
-      h2 {
-          display: none;
-      }
-      
-      #p1, #p2, #p3 {
-          display: block;
-          font-size: 40px;
-          margin: 45px;
-          margin-right: 180px;
-          font-family: 'sourcesemibold';
-          text-align: justify;
-          
-      }
-      
-      #services p {
-          width: 100%
-      }
-      
-      #p1 {
-          margin-top: 150px;
-      }
-      
-      #phrase3 {
-          display: none;
-      }
-      
-      #p2 {
-          margin-top: 110px;
-          
-      }
-      
-      #p3 {
-          margin-top: 330px;
-      }
-      #launch a {
-    margin-bottom: 700px;
-    text-decoration: none;
-    font-family: 'mermaid';
-    color: #fff;
-    font-size: 100px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
-    padding: 45px 80px 45px 80px ;
-          
-    
-}
-      
-   
-
-}
-}
-
-
-
-
